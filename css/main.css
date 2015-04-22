@@ -1,0 +1,65 @@
+body {
+  font: 10px sans-serif;
+  background-color: #000000;
+}
+
+#general {
+  background-color: #FFFFFF;
+  width: 80%;
+  margin-left: 10%;
+  margin:auto;
+}
+
+#description {
+  font: 15px sans-serif;
+  color: white;
+  width: 23%;
+  position: absolute;
+}
+
+#header {
+  font: 24px sans-serif;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+.content {
+  width: 80%;
+}
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #FFFFFF;
+  shape-rendering: crispEdges;
+  stroke-width: 3px;
+
+}
+
+.y.axis path {
+	display: none;
+}
+.y.axis text {
+	fill: #FFFFFF;
+}
+
+.bar {
+  fill: #FF6600;
+}
+
+.x.axis path {
+  display: none;
+
+}
+
+.x.axis text {
+	fill: #FFFFFF;
+}
+
+
+
+  
+.line {
+  fill: none;
+  stroke: #0033CC;
+  stroke-width: 2px;
+}
